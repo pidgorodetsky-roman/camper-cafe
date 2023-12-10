@@ -11,34 +11,31 @@
       <main>
         <h1>CAMPER CAFE</h1>
         <p>Est. 2020</p>
-        <!-- Крок 32 Пройдено
-
-Цієї миті смаки та ціни знаходяться один над одним та розміщені відповідно до елементів p. 
-Було б чудово, якби смак був зліва, а ціна справа.
-
-Додайте назву класу flavor до елемента p French Vanilla.
-
-Далі потрібно вирівняти ціну за правим краєм. Додайте клас з назвою price до елемента p, що має текст 3.00.
- -->
         <section>
           <h2>Coffee</h2>
-          <article>
+          <!-- Крок 36
+
+Схоже до того, що ви хочете, але було б добре, якби смак та ціна були на одній лінії. Елементи p є елементами на рівні блоків, отож вони займають всю ширину батьківського елемента.
+
+Щоб вони були на одній лінії, вам потрібно застосувати певну стилізацію для елементів p, щоб вони поводились як вбудовані елементи. Для цього почніть із додавання атрибуту class зі значенням item до першого елемента article під заголовком Coffee.
+ -->
+          <article class="item">
             <p class="flavor">French Vanilla</p>
             <p class="price">3.00</p>
           </article>
-          <article>
+          <article class="item">
             <p class="flavor">Caramel Macchiato</p>
             <p class="price">3.75</p>
           </article>
-          <article>
+          <article class="item">
             <p class="flavor">Pumpkin Spice</p>
             <p class="price">3.50</p>
           </article>
-          <article>
+          <article class="item">
             <p class="flavor">Hazelnut</p>
             <p class="price">4.00</p>
           </article>
-          <article>
+          <article class="item">
             <p class="flavor">Mocha</p>
             <p class="price">4.50</p>
           </article>
