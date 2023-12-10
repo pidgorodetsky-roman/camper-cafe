@@ -7,13 +7,14 @@ h2,
 p {
   text-align: center;
 }
-/* Крок 24
+/* Крок 25
 
-Тепер легко побачити, що текст відцентрований всередині елемента #menu. Наразі ширина елемента #menu вказана в пікселях (px).
-
-Change the width property's value to be 80%, to make it 80% the width of its parent element (body).
+Next, you want to center the #menu horizontally. Це можна зробити, встановивши властивості margin-left та margin-right на auto. 
+Думайте про поле як невидимий простір навколо елементу. Using these two margin properties, center the #menu element within the body element.
 */
 #menu {
   width: 80%;
   background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
 }
