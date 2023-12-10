@@ -14,3 +14,16 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+/* Крок 33
+
+Використовуючи новий клас flavor як селектор, встановіть значення властивості text-align на left.
+
+Тепер вирівняйте текст за правим краєм для елементів класу price.
+*/
+.flavor {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+}
