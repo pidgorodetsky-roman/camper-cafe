@@ -7,12 +7,11 @@ h2,
 p {
   text-align: center;
 }
-/* Крок 25
+/* Крок 26
 
-Next, you want to center the #menu horizontally. Це можна зробити, встановивши властивості margin-left та margin-right на auto. 
-Думайте про поле як невидимий простір навколо елементу. Using these two margin properties, center the #menu element within the body element.
+Change the existing #menu selector into a class selector by replacing #menu with a class named .menu.
 */
-#menu {
+.menu {
   width: 80%;
   background-color: burlywood;
   margin-left: auto;
