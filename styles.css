@@ -7,3 +7,18 @@ h2,
 p {
   text-align: center;
 }
+/* Крок 21
+
+Тепер метою є зробити так, щоб div не займав всю ширину сторінки. CSS властивість width чудово підходить для цього.
+
+You can use the id selector to target a specific element with an id attribute. An id selector is defined by placing the hash symbol # directly in front of the element's id value. For example, if an element has the id of cat then you would target that element like this:
+
+#cat {
+  width: 250px;
+}
+
+Use the #menu selector to give your element a width of 300px.
+*/
+#menu {
+  width: 300px;
+}
