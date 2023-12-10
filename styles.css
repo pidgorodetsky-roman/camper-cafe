@@ -1,0 +1,14 @@
+/* Крок 18
+
+Текст знову зцентрований, отож посилання на файл CSS працює. 
+Додайте інший стиль до файлу, що змінює властивість background-color на brown для елемента body.
+*/
+body {
+  background-color: brown;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
