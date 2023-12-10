@@ -1,10 +1,3 @@
-/* Крок 28
-
-Оскільки головним товаром для продажу є кава, для фону сторінки можна використати зображення кавових бобів.
-
-Видаліть коментар та його вміст всередині селектору типу body. Тепер додайте властивість background-image та встановіть значення 
-url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg).
-*/
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
